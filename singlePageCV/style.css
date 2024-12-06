@@ -1,0 +1,81 @@
+:root {
+    --cor-h2: #22c55e;
+    --cor-h4: #2563eb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da janela */
+    border: 2px solid black;
+    width: 100%; /* Garante que o body ocupe a largura da tela */
+}
+
+.container {
+    /* border: 2px solid black; */
+    width: 80%;
+    max-width: 720px;
+    margin: 80px 0; /* Ajusta as margens para espaçamento */
+}
+
+/* Cabeçalho */
+.cabecalho {
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    width: 100%; /* Ajusta para ocupar 100% da largura disponível */
+}
+
+#title {
+    border-top: 2px solid black;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+/* Section skills */
+.skill {
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.title-2 {
+    color: var(--cor-h2);
+    /* border: 2px solid rgb(55, 0, 255); */
+}
+
+.edu {
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.title-4 {
+    color: var(--cor-h4);
+}
+
+.exp {
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+a:visited{
+    color: #6d28d9;
+}
