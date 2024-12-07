@@ -6,41 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A simple HTML-only website for roadmap.sh frontend" />
     <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
-    <meta name="author" content="Henrique Unnath"/>
+    <meta name="author" content="Henrique Unnath" />
     <title>Back HTML Website</title>
+    <style>
+        * {
+            background-color: #334155;
+            color: #d4d4d8;
+            /* text-decoration: underline; */
+        }
+
+        .nav-bar-link {
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <div class="container-1">
             <h1 class="logo">
-                <img src="src/img/Logo_50x50.png" alt="Logo"> 
+                <a href="index.html" target="_self"><img src="src/img/Logo_50x50.png" alt="Logo"> </a>
                 <nav>
                     <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="articles.html">Article</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                        <li><a class="nav-bar-link" href="index.html">Home</a></li>
+                        <li><a class="nav-bar-link" href="projects.html">Projects</a></li>
+                        <li><a class="nav-bar-link" href="certificados.html">Article</a></li>
+                        <li><a class="nav-bar-link" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
         </div>
     </header>
     <main>
-        <section class="primeira">
-            <h1>Frontend Developer</h1>
-            <p>html only with proper layout, no style</p>
+        <section class="sect-1">
+            <h1 class="title-1"">Futuro Desenvolvedor Web Full Stack</h1>
+            <p class=" paraf-1">Hoje um aspirante para o mundo da programação.</p>
         </section>
-        <section class="segunda">
-            <article class="item1">
-                <h3>Projects</h3>
-                <p class="proj1"><a href=""></a></p>
-                <p class="proj1"></p>
-                <p class="proj1"></p>
-                <p class="proj1"></p>
+        <section class="sect-2">
+            <article class="art-1">
+                <section class="art-sect-1">
+                    <h3><a href="projects.html" target="_blank" rel="noopener noreferrer">Projetos</a></h3>
+                    <p class="projet-1"><a href="src/projects/singlePageCV/singlePage.html" target="_blank"
+                            rel="noopener noreferrer">Curriculo</a></p>
+                    <p class="projet-1">Projeto 2</p>
+                    <p class="projet-1">Projeto 3</p>
+                    <p class="projet-1">Projeto 4</p>
+                </section>
             </article>
-            <article class="item2"></article>
-            <article class="item3"></article>
-            <article class="item4"></article>
+            <article class="art-2">
+                <section class="art-sect-2">
+                    <h1 class="title-1">Experiencia</h1>
+                    <p>Por enquanto nenhuma</p>
+                    <a href="https://www.linkedin.com/in/unnathls/">Para saber mais sobre minhas experiencias</a>
+                </section>
+            </article>
+            <article class="art-3">
+                <section>
+                    <h1 class="title-1">Sobre mim </h1>
+                    <p class="paraf-1">Me chamo Luiz Henrique da Silva , atualmente estou estudando Desenvolvimento Web
+                        Full Stack pela <a href="https://workover.com.br" target="_blank">Workover</a> em parceira com a
+                        <a href="https://softex.br">Softtex</a>.</p>
+                </section>
+            </article>
+            <article class="art-4">
+                <h1 class="title-1">Formação</h1>
+                <p class="paraf-1">Por enquanto nenhuma mas tenho planos de fazer ou Ciência da Computação ou Analise e
+                    Desenvolvimento de Sistemas</p>
+                <h1 class="title-1">Certificados</h1>
+                <ol>
+                    <li><a href="https://workover.com.br/certificados/jornadas/1c344c2f52e8ab8f1a0f432f428fd0e8,201/validador"
+                            target="_blank">Nivelamento Teórico</a></li>
+                    <ul>
+                        <li>Algoritmos e Lógica de Programação</li>
+                        <li>Programação Orientada a Objetos</li>
+                        <li>Python para Calouros</li>
+                        <li>Curso Fundamentos da Linguagem Java</li>
+                        <li>Banco de Dados para Calouros</li>
+                        <li>Redes de Computadores</li>
+                    </ul>
+                    <li><a href="https://workover.com.br/certificados/jornadas/1c344c2f52e8ab8f1a0f432f428fd0e8,207/validador"
+                            target="_blank">Nivelamento Prático</a></li>
+                    <ul>
+                        <li>HTML, CSS e JavaScript Para Iniciantes</li>
+                        <li>C# - Introdução a Programação Orientada a Objetos</li>
+                        <li>Teste de Software</li>
+                        <li>Teste Unitário</li>
+                        <li>Git GitHub</li>
+                        <li>Scrum</li>
+                        <li>Entenda UX - UI</li>
+                    </ul>
+                    <li><a href="https://workover.com.br/certificados/jornadas/1c344c2f52e8ab8f1a0f432f428fd0e8,212/validador" target="_blank">Avaliação do Nivelamento</a></li>
+                </ol>
+            </article>
         </section>
     </main>
     <footer>
